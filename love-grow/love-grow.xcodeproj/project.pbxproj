@@ -11,6 +11,9 @@
 		DC5F94C325702F0E0069F80A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F94C225702F0E0069F80A /* ContentView.swift */; };
 		DC5F94C525702F100069F80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5F94C425702F100069F80A /* Assets.xcassets */; };
 		DC5F94C825702F100069F80A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5F94C725702F100069F80A /* Preview Assets.xcassets */; };
+		DC5F94D1257037ED0069F80A /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F94D0257037ED0069F80A /* AppData.swift */; };
+		DC5F94D42570383E0069F80A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F94D32570383E0069F80A /* User.swift */; };
+		DC5F94D725703B7F0069F80A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F94D625703B7F0069F80A /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		DC5F94C425702F100069F80A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5F94C725702F100069F80A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC5F94C925702F100069F80A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5F94D0257037ED0069F80A /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		DC5F94D32570383E0069F80A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DC5F94D625703B7F0069F80A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				DC5F94C425702F100069F80A /* Assets.xcassets */,
 				DC5F94C925702F100069F80A /* Info.plist */,
 				DC5F94C625702F100069F80A /* Preview Content */,
+				DC5F94D0257037ED0069F80A /* AppData.swift */,
+				DC5F94D32570383E0069F80A /* User.swift */,
+				DC5F94D625703B7F0069F80A /* Question.swift */,
 			);
 			path = "love-grow";
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5F94D725703B7F0069F80A /* Question.swift in Sources */,
+				DC5F94D42570383E0069F80A /* User.swift in Sources */,
 				DC5F94C325702F0E0069F80A /* ContentView.swift in Sources */,
 				DC5F94C125702F0E0069F80A /* love_growApp.swift in Sources */,
+				DC5F94D1257037ED0069F80A /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

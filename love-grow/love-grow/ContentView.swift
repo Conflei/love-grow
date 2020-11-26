@@ -9,8 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Spacer()
+            Spacer()
+            Spacer()
+            QuizButtonView()
+            Spacer()
+        }
+       
+    }
+}
+
+struct QuizButtonView: View {
+    var body: some View {
+        VStack{
+            Text("5 Love Languages").padding()
+            VStack
+            {
+                Text("Results")
+                HStack{
+                    Text("Share")
+                    Spacer()
+                    Text("Start")
+                }.padding()
+            }.background(Color.black.opacity(0.5))
+            Text("About This Test").padding()
+        }.shadow(radius: 10)
+        .background(Color.gray.opacity(0.5))
     }
 }
 
